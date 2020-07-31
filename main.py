@@ -15,7 +15,7 @@ while True:
         for x,y,w,h in smile:
             img=cv2.rectangle(frame,(x,y),(x+w,y+h),(255,0,0),3)
 
-    cv2.imshow('Zab-Face-Detect',frame)
+    cv2.imshow('Zab-Detect',frame)
     key=cv2.waitKey(1)
 
     if key==ord('q'):
